@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{66D6C7DE-B723-EC10-6B8A-EB0AE12E7229}</ProjectGuid>
+    <ProjectGuid>{A1F426BB-CB59-C1A6-F0C9-FEF5BC7DC107}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,17 +56,17 @@
     <Analyzer Include="D:\Visual Studio\Cash\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CharacterMove.cs" />
+    <Compile Include="Assets\Scripts\CharacterMove\CharacterMove.cs" />
     <Compile Include="Assets\Scripts\Parallax\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueManagerFirst.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueAnimFirst.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Parallax\ParallaxBack.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\Parallax\ParallaxCam.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueAnim.cs" />
-    <Compile Include="Assets\Scripts\MenuManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

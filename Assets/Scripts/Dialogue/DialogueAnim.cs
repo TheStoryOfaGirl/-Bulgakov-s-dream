@@ -19,7 +19,8 @@ public class DialogueAnim : MonoBehaviour
         if (!dialogueManager.flag)
         {
             dialogueManager.EndDialogue();
-            endAnim.SetBool("endOp", true);    
+            startAnim.SetBool("StartOpen", false);
+            endAnim.SetBool("endOp", true);
         }
         dialogueManager.flag = true;
     }

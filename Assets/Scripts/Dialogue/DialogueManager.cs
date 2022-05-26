@@ -80,8 +80,8 @@ public class DialogueManager : MonoBehaviour
     public void Exit()
     {
         inputFieldOpen.SetBool("fopen", false);
-        startAnim.SetBool("StartOpen", false);
         dialogueAnim.SetBool("dialogueOpen", false);
+        startAnim.SetBool("StartOpen", false);
     }
 
     public void ContinueDialogue()
